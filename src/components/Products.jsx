@@ -9,7 +9,7 @@ const Products = () => {
         {title : "YAHOO!",description :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus officiis id dolorem atque quis, nam aliquam distinctio", live : true , case : true},
     ]
   return (
-    <div>
+    <div className='mt-24'>
         {data.map((val,index)=><Product val={val} />)}
     </div>
   )
