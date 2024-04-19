@@ -26,5 +26,4 @@ const Card = ({width,start,para,hover='false'}) => {
     </motion.div>
   )
 }
-
 export default Card
