@@ -11,8 +11,8 @@ const Marquees = () => {
 ],
     ]
   return (
-    <div className='py-20 mt-22'>
-      {data.map(item => <Marquee imagesUrls={item}/>)}
+    <div className='py-20 mt-22 relative overlflow-hidden'>
+      {data.map((item,index )=> <Marquee key={index} direction={index === 0 ? "left":"right"} imagesUrls={item}/>)}
     </div>
   )
 }
